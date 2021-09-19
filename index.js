@@ -1,5 +1,5 @@
 var readLineSync = require("readline-sync");
-var name = readLineSync.question("What's your name? ")
+var name = readLineSync.question("What's your name??")
 console.log("Hey! " + name + ", How you doin? So, you think you're a og friends fan eh? let's play then!")
 
 const questions = [
@@ -25,7 +25,7 @@ function quiz(question, answer) {
     var newans = uanswer.toLowerCase();
     if (newans == answer) {
         score = score + 1;
-        console.log("noice!");
+        console.log("noice!!");
 
         newans = "";
     }
