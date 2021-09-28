@@ -15,7 +15,15 @@ const questions = [
     {
         question: "What pet did Ross own? Parrot or Monkey= ",
         answer: "monkey"
-    }
+    },
+    {
+  question: "Monica dated an ophthalmologist named= ",
+  answer: "richard"
+},
+{
+question: "Who was the maid of honor at Monica’s wedding? phoebe or rachel?= ",
+answer:"rachel"
+}
 ];
 var score = 0;
 function quiz(question, answer) {
